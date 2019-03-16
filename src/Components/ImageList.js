@@ -1,4 +1,4 @@
-import "./assets/Imageslist.css";
+import "./assets/ImagesList.css";
 import React from "react";
 import ImageCard from "./ImageCard";
 
