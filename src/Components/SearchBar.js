@@ -19,7 +19,7 @@ class SearchBar extends React.Component {
               value={this.state.term}
               onChange={e => this.setState({ term: e.target.value })}
               placeholder={this.state.placeholder}
-              label='search-bar'
+              label="search-bar"
             />
           </div>
         </form>
