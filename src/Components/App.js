@@ -1,6 +1,7 @@
 import React, { Suspense } from "react";
 import Unsplash from "../api/unsplash";
 import SearchBar from "./SearchBar";
+import LineBreak from './LineBreak';
 const ImageList = React.lazy(() => import("./ImageList"));
 
 class App extends React.Component {
@@ -25,6 +26,7 @@ class App extends React.Component {
           }
         >
           <SearchBar onSubmit={this.onSearchSubmit} />
+          <LineBreak class="col-9 col-sm-11 col-md-11"></LineBreak>
           <ImageList images={this.state.images} />
         </Suspense>
       </div>
