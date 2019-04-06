@@ -2,7 +2,7 @@
   "name": "pics",
   "version": "0.1.0",
   "private": true,
-  "homepage" : "http://jtoloui.github.io/pics/",
+  "homepage": "http://jtoloui.github.io/pics/",
   "dependencies": {
     "axios": "^0.18.0",
     "gh-pages": "^2.0.1",
