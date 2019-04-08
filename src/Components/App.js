@@ -26,8 +26,9 @@ class App extends React.Component {
           }
         >
           <SearchBar onSubmit={this.onSearchSubmit} />
-          <LineBreak class="col-9 col-sm-11 col-md-11"></LineBreak>
-          <ImageList images={this.state.images} />
+          <LineBreak class="bx--col-xs-11 bx--col-sm-11 bx--col-md-11 bx--col-lg-11"/>
+
+            <ImageList images={this.state.images} />
         </Suspense>
       </div>
     );
